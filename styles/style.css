@@ -17,6 +17,10 @@ h2,h3,h4 {
     color: #EEFED8;
 }
 
+h4 {
+    text-align: center;
+    color: #EBB1A3;
+}
 p, li {
   color: #EBB1A3;
   font-size: 16px;    
@@ -28,11 +32,28 @@ body {
   margin: 0 auto;
   background-color: #232323;
   padding: 0px 20px 20px 20px;
-  border: 1px solid white;
+  border: 3px dotted white;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+a:hover{
+  color: #FBB12F
+}
+
+.banner{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-section{
+  text-align: center;
+  margin-top: 5px;
+  height: 50px;
+  border: 2px dotted grey;
 }
 
